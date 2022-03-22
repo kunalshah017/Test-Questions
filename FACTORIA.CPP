@@ -14,13 +14,12 @@ getch();
 return 0;
 }
 void factorial(int a){
-int c=1;
+int c=1,d;
 
-while(c<a){
-a=a*c;
-c++;
+for(d=a;d>0;d--){
+c=c*d;
 
 }
-cout<<"factorial of number is = "<<a;
+cout<<"factorial of number is = "<<c;
 
 }
